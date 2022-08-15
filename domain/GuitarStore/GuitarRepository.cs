@@ -8,6 +8,8 @@ namespace GuitarStore
 {
     public interface IGuitarRepository
     {
-        Guitar[] GeyAllByTitle(string titlePart);
+        Guitar[] GetAllByIsbn(string isbn);
+
+        Guitar[] GetAllByTitle(string titlePart);
     }
 }
