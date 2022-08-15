@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace guitarstore
+namespace GuitarStore
 {
-    internal interface Interface1
+    public interface IGuitarRepository
     {
+        Guitar[] GeyAllByTitle(string titlePart);
     }
 }
