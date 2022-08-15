@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{50C4926D-38FB-445E-B860-111B13E4633A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "guitarstore", "domain\guitarstore\guitarstore.csproj", "{17EF55AC-EAE3-480C-A5C0-6CFB10FE8A25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17EF55AC-EAE3-480C-A5C0-6CFB10FE8A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EF55AC-EAE3-480C-A5C0-6CFB10FE8A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EF55AC-EAE3-480C-A5C0-6CFB10FE8A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EF55AC-EAE3-480C-A5C0-6CFB10FE8A25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17EF55AC-EAE3-480C-A5C0-6CFB10FE8A25} = {50C4926D-38FB-445E-B860-111B13E4633A}
+	EndGlobalSection
+EndGlobal
